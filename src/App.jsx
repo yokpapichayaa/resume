@@ -1,17 +1,13 @@
-import Header from './components/header'
 import Banner from './components/banner';
 import { Container, Row, Col } from 'react-bootstrap';
 import './App.css';
 import 'tailwindcss';
-// import portImage from './images/portImage.jpg';
-// import title from './images/title.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone,faEnvelopeOpen,faHouse,faEarthAmericas,faUser } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
     <div>
-      {/* <Header /> */}
       <Container>
         <Row>
           <Col xs={12} md={4} className='leftRow d-flex flex-column clearfix'>
