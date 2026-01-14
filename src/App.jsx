@@ -34,7 +34,7 @@ function App() {
                 </div>
                 <div class="icon address pb-6 pl-16 pr-16 text-left">
                   <FontAwesomeIcon className='pr-6' icon={faHouse} />
-                  <span>189/87 baan klang muang phaholyothin-ramintra Tha Raeng Subdistrict, Bang Khen District, Bangkok 10220</span>
+                  <span>189/87 Baan Klang Muang Phaholyothin-Ramintra,Tha Raeng Subdistrict,Bang Khen District,Bangkok,10220</span>
                 </div>
                 <div class="title mt-3">
                   <h3 className="uppercase pt-3 pb-6">Skill</h3>
@@ -98,9 +98,9 @@ function App() {
                     <h4 class="pl-2">Outsourcify.</h4>
                   </div>
                   <ul>
-                    <li>March 2018 - April 2020 <br></br>I create WordPress sites by customizing themes according to client specifications, 
-                      modifying plugins, 
-                      and optimizing website SEO.</li>
+                    <li>March 2018 - April 2020 <br></br>I have 5 years of experience working with WordPress.<br></br>- During my first job, I worked with WordPress:
+I used HTML, CSS, WordPress, and JS for main projects.<br></br>-I customized themes collaborated with UX/UI designers, and gained experience working with international clients. 
+<br></br>-I also modified various WordPress plugins to meet client needs, worked with project managers, and learned about client meetings.</li>
                   </ul>
                 </div>
                 <div class="text-left">
@@ -109,8 +109,8 @@ function App() {
                     <h4 class="pl-2">Tigonsoft</h4>
                   </div>
                   <ul>
-                    <li>May 2020 - June 2023<br></br>I developed WordPress websites for a company and experimented with React before switching to game development.</li>
-                    <li>June 2023 - December 2025<br></br>I worked with the Unity Engine, utilizing C# and learning game development.</li>
+                    <li>May 2020 - June 2023<br></br> My work was similar to my first job, but focused on SEO. This included installing and providing initial support to clients through Yeost SEO. I also handled website translation using WPML, creating and installing translated web pages, and enabling website users to select their preferred language. Before switching to game development, I learned basic React programming, including creating landing pages. You can see examples on the demo website I've included in my resume.</li>
+                    <li>June 2023 - December 2025<br></br>In terms of game development, I learned to use Unity. I collaborated with the UX/UI and graphic design teams to create assets that met client requirements and were compatible with Unity. We then structured the entire project using these assets, linking and configuring animations, and writing code in C# to define the desired animation events. Finally, I worked with QA to verify the accuracy and deliver the final work.</li>
                   </ul>
                 </div>
               </div>
