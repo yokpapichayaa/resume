@@ -10,7 +10,7 @@ function App() {
     <div>
       <Container>
         <Row>
-          <Col xs={12} md={4} className='leftRow d-flex flex-column clearfix'>
+          <Col xs={12} md={5} lg={4} className='leftRow d-flex flex-column clearfix'>
               <h1 className="uppercase pt-6 pb-6">Papichaya<br></br>Saretae</h1>
               <div class="text-center">
                 <div class="portImage">
@@ -20,20 +20,20 @@ function App() {
                   <h3 className="uppercase pt-3 pb-6">Contact</h3>
                   <i></i>
                 </div>
-                <div class="icon tele pb-6 pl-16 pr-16 text-left">
-                  <FontAwesomeIcon icon={faUser} />
+                <div class="icon tele pb-6 pl-8 lg:pl-16 pr-8 lg:pr-16 text-left">
+                  <FontAwesomeIcon className='pr-4' icon={faUser} />
                   <span>Papichaya Saretae (Yok)</span>
                 </div>
-                <div class="icon tele pb-6 pl-16 pr-16 text-left">
-                  <FontAwesomeIcon className='pr-6' icon={faPhone} />
+                <div class="icon tele pb-6 pl-8 lg:pl-16 pr-8 lg:pr-16 text-left">
+                  <FontAwesomeIcon className='pr-4' icon={faPhone} />
                   <span>0922971830</span>
                 </div>
-                <div class="icon email pb-6 pl-16 pr-16 text-left">
-                  <FontAwesomeIcon className='pr-6' icon={faEnvelopeOpen} />
+                <div class="icon email pb-6 pl-6 lg:pl-16 pr-8 lg:pr-16 text-left break-all">
+                  <FontAwesomeIcon className='pr-4' icon={faEnvelopeOpen} />
                   <span>yokpapichaya@gmail.com</span>
                 </div>
-                <div class="icon address pb-6 pl-16 pr-16 text-left">
-                  <FontAwesomeIcon className='pr-6' icon={faHouse} />
+                <div class="icon address pb-6 pl-8 lg:pl-16 pr-8 lg:pr-16 text-left">
+                  <FontAwesomeIcon className='pr-4' icon={faHouse} />
                   <span>189/87 Baan Klang Muang Phaholyothin-Ramintra,Tha Raeng Subdistrict,Bang Khen District,Bangkok,10220</span>
                 </div>
                 <div class="title mt-3">
@@ -61,14 +61,14 @@ function App() {
                 </div>
               </div>
           </Col>
-          <Col xs={12} md={8} className='rightRow d-flex flex-column clearfix'>
+          <Col xs={12} md={7} lg={8} className='rightRow d-flex flex-column clearfix'>
               <h2 className="uppercase pt-3 pb-6 h2">Resume</h2>
-              <div class="gray pt-30 pb-30">
-                  <h3 className="uppercase pt-3 pb-6 pl-20 text-left">Career objective</h3>
-                  <div class="pr-30 pl-20 text-left">For the 1-4 years, I worked in web development using HTML, CSS, JavaScript, and WordPress templates. After that, from 5-7 year, I switched to game development using Unity Engine. I learned to improve myself in all areas and was always able to apply my knowledge to each project.</div>
+              <div class="gray pt-20 md:pt-30 pb-20 md:pb-30">
+                  <h3 className="uppercase pt-3 pb-6 pl-10 md:pl-20 text-left">Career objective</h3>
+                  <div class="pr-10 md:pr-30 pl-10 md:pl-20 text-left">For the 1-4 years, I worked in web development using HTML, CSS, JavaScript, and WordPress templates. After that, from 5-7 year, I switched to game development using Unity Engine. I learned to improve myself in all areas and was always able to apply my knowledge to each project.</div>
               </div>
               <div class="pt-10 pb-10">
-                  <h3 className="uppercase pt-3 pb-6 pl-20 text-left">Education</h3>
+                  <h3 className="uppercase pt-3 pb-6 pl-10 md:pl-20 text-left">Education</h3>
                   <div class="text-left">
                     <ul>
                       <li>Information Technology</li>Suranaree university of technology, 2014-2018
@@ -76,7 +76,7 @@ function App() {
                 </div>
               </div>
               <div class="pb-10">
-                <h3 className="uppercase pt-3 pb-6 pl-20 text-left">Technical Experiance</h3>
+                <h3 className="uppercase pt-3 pb-6 pl-10 md:pl-20 text-left">Technical Experiance</h3>
                 <div class="text-left">
                   <ul>
                       <li>CMS System WordPress (5 years)</li>
@@ -91,9 +91,9 @@ function App() {
                 </div>
               </div>
               <div class="pb-10">
-                <h3 className="uppercase pt-3 pb-6 pl-20 text-left">Profressional Experiance</h3>
+                <h3 className="uppercase pt-3 pb-6 pl-10 md:pl-20 text-left">Profressional Experiance</h3>
                 <div class="text-left">
-                  <div class="d-flex pl-20">
+                  <div class="d-flex pl-10 md:pl-20">
                     <FontAwesomeIcon icon={faEarthAmericas} />
                     <h4 class="pl-2">Outsourcify.</h4>
                   </div>
@@ -104,7 +104,7 @@ I used HTML, CSS, WordPress, and JS for main projects.<br></br>-I customized the
                   </ul>
                 </div>
                 <div class="text-left">
-                  <div class="d-flex pl-20">
+                  <div class="d-flex pl-10 md:pl-20">
                     <FontAwesomeIcon icon={faEarthAmericas} />
                     <h4 class="pl-2">Tigonsoft</h4>
                   </div>
